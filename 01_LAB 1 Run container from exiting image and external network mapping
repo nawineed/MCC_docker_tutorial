@@ -3,7 +3,7 @@ LAB 1 Run container from exiting image and external network mapping
 --------------------------------------------------------------------------------------------
 docker run -it --rm -d -p 8080:80 --name nawineed_web nginx
 -it		interactive by TTY
---rm	Automatically remove the container when it exits
+--rm	Automatically remove the container when it exits *** (PRD Not recommend)
 -d		background process
 -p		map port external:internal
 --name	container name
