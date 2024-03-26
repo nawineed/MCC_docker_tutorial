@@ -22,7 +22,7 @@ docker ps
 docker stop nawineed_web
 
 docker run -it --rm -d -p 8080:80 --name nawineed_web -v /nawineed:/usr/share/nginx/html nginx
--v mapping volume source:container path
+#-v mapping volume source:container path
 
 #Test by web browser
 http://10.41.37.89:8080
