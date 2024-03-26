@@ -18,6 +18,9 @@ vi index.html
 </body>
 </html>
 
+docker ps
+docker stop nawineed_web
+
 docker run -it --rm -d -p 8080:80 --name nawineed_web -v /nawineed:/usr/share/nginx/html nginx
 -v mapping volume source:container path
 
