@@ -3,7 +3,8 @@ LAB 2 Run container from exiting image and volume mapping
 --------------------------------------------------------------------------------------------
 cd /
 mkdir /nawineed
-vi /nawineed/index.html
+cd /nawineed
+vi index.html
 
 <!doctype html>
 <html lang="en">
