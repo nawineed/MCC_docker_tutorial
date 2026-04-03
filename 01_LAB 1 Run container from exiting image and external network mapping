@@ -9,7 +9,8 @@ docker run -it --rm -d -p 8080:80 --name nawineed_web nginx
 #--name	container name
 
 #Test by web browser
-http://10.41.37.89:8080
+http://yourIPAddress:yourNginxPort
+
 #Result
 Default page of nginx
 
