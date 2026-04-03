@@ -20,7 +20,7 @@ docker run -it -d -p 9080:80 --name nawineed_web_v2 nawineed_webserver:v2.0
 docker run -it -d -p 8080:80 --name nawineed_web_v1 nawineed_webserver:v1.0
 
 #Test by web browser
-http://10.41.37.89:8080
+http://yourIPAddress:yourNginxPort
 #Result
 - Customization page by html file version 1.0 (with Full name of student)
 - My docker image version 2.0
